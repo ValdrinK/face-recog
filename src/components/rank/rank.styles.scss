@@ -1,0 +1,13 @@
+.rank {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .name {
+    font-size: 50px;
+  }
+
+  .rank-number {
+    font-size: 75px;
+  }
+}

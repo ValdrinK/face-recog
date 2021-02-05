@@ -1,0 +1,58 @@
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+  .p-text {
+    font-size: 35px;
+    color: #f2e205;
+  }
+
+  .input {
+    width: 700px;
+    height: 100px;
+    border: 1px solid white;
+    margin-top: 1vh;
+
+    background: linear-gradient(45deg, #0424d9 45px, transparent 45px) 64px 64px,
+      linear-gradient(
+        45deg,
+        #0424d9 45px,
+        transparent 45px,
+        transparent 91px,
+        #f2e205 91px,
+        #f2e205 135px,
+        transparent 135px
+      ),
+      linear-gradient(
+        -45deg,
+        #0424d9 23px,
+        transparent 23px,
+        transparent 68px,
+        #0424d9 68px,
+        #0424d9 113px,
+        transparent 113px,
+        transparent 158px,
+        #0424d9 158px
+      );
+    background-color: #f2e205;
+    background-size: 128px 128px;
+
+    .center {
+      margin-top: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .input-bar {
+        width: 400px;
+        height: 30px;
+      }
+
+      button {
+        height: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+
+  p {
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: black;
+    padding: 3px;
+  }
+
+  p:hover {
+    opacity: 0.5;
+  }
+}

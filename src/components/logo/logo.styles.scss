@@ -1,0 +1,18 @@
+.logo {
+  margin-left: 60px;
+
+  .Tilt {
+    border-radius: 50%;
+    box-shadow: 7px 7px 10px #e7dc3a;
+    background: linear-gradient(
+      90deg,
+      rgb(71, 194, 188) 0%,
+      rgb(4, 100, 119) 39%
+    );
+
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
